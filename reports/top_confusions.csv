@@ -1,0 +1,11 @@
+true_id,pred_id,true,pred,count,share_of_true_class
+6,0,Camisa,Camiseta/top,133,0.13326653306613226
+6,4,Camisa,Abrigo,78,0.0781563126252505
+2,4,Suéter,Abrigo,63,0.063
+0,6,Camiseta/top,Camisa,51,0.05110220440881764
+2,6,Suéter,Camisa,48,0.048
+6,2,Camisa,Suéter,48,0.04809619238476954
+4,6,Abrigo,Camisa,37,0.037037037037037035
+4,2,Abrigo,Suéter,35,0.035035035035035036
+3,4,Vestido,Abrigo,27,0.02702702702702703
+6,3,Camisa,Vestido,27,0.027054108216432865

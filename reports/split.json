@@ -1,0 +1,49 @@
+{
+  "train": 54000,
+  "valid": 5993,
+  "test": 9991,
+  "removed_near_duplicates_valid": 7,
+  "removed_near_duplicates_test": 9,
+  "valid_fraction": 0.1,
+  "seed": 42,
+  "train_index_sha256": "f21e3d1771bfb0627b1aaf3ba7ea18691aaf02bb95dea0af96bbb17bdc62bb46",
+  "valid_index_sha256": "1c91db52df669a30ed1bf910acc6a6db7055a02912255a45ef407d514f51f803",
+  "class_counts": {
+    "train": [
+      5400,
+      5400,
+      5400,
+      5400,
+      5400,
+      5400,
+      5400,
+      5400,
+      5400,
+      5400
+    ],
+    "valid": [
+      600,
+      599,
+      600,
+      600,
+      598,
+      600,
+      596,
+      600,
+      600,
+      600
+    ],
+    "test": [
+      998,
+      997,
+      1000,
+      999,
+      999,
+      1000,
+      998,
+      1000,
+      1000,
+      1000
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "train_shape": [
+    60000,
+    28,
+    28
+  ],
+  "test_shape": [
+    10000,
+    28,
+    28
+  ],
+  "dtype": "uint8",
+  "pixel_range": [
+    0,
+    255
+  ],
+  "pixel_mean": {
+    "train": 0.2860405969887955,
+    "test": 0.28684928071228494
+  },
+  "pixel_std": {
+    "train": 0.3530242445149226,
+    "test": 0.35244415324744
+  },
+  "blank_images": 0,
+  "class_counts": {
+    "train": {
+      "T-shirt/top": 6000,
+      "Trouser": 6000,
+      "Pullover": 6000,
+      "Dress": 6000,
+      "Coat": 6000,
+      "Sandal": 6000,
+      "Shirt": 6000,
+      "Sneaker": 6000,
+      "Bag": 6000,
+      "Ankle boot": 6000
+    },
+    "test": {
+      "T-shirt/top": 1000,
+      "Trouser": 1000,
+      "Pullover": 1000,
+      "Dress": 1000,
+      "Coat": 1000,
+      "Sandal": 1000,
+      "Shirt": 1000,
+      "Sneaker": 1000,
+      "Bag": 1000,
+      "Ankle boot": 1000
+    }
+  },
+  "exact_duplicates": {
+    "within_train": 0,
+    "within_test": 0,
+    "test_in_train": 0
+  },
+  "near_duplicates_test_vs_train": {
+    "threshold_rms_14x14": 0.02,
+    "count": 10,
+    "with_different_label": 0
+  }
+}

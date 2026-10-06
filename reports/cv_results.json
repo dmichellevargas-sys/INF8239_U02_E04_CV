@@ -1,0 +1,74 @@
+{
+  "selected_model": "cnn",
+  "selection_rule": "mayor F1 macro en validación; diferencia < 0.01 -> menor tiempo de entrenamiento",
+  "split": {
+    "train": 54000,
+    "valid": 5993,
+    "test": 9991,
+    "removed_near_duplicates_valid": 7,
+    "removed_near_duplicates_test": 9,
+    "valid_fraction": 0.1,
+    "seed": 42,
+    "train_index_sha256": "f21e3d1771bfb0627b1aaf3ba7ea18691aaf02bb95dea0af96bbb17bdc62bb46",
+    "valid_index_sha256": "1c91db52df669a30ed1bf910acc6a6db7055a02912255a45ef407d514f51f803",
+    "class_counts": {
+      "train": [
+        5400,
+        5400,
+        5400,
+        5400,
+        5400,
+        5400,
+        5400,
+        5400,
+        5400,
+        5400
+      ],
+      "valid": [
+        600,
+        599,
+        600,
+        600,
+        598,
+        600,
+        596,
+        600,
+        600,
+        600
+      ],
+      "test": [
+        998,
+        997,
+        1000,
+        999,
+        999,
+        1000,
+        998,
+        1000,
+        1000,
+        1000
+      ]
+    }
+  },
+  "mcnemar_dense_vs_selected": {
+    "only_a_correct": 183,
+    "only_b_correct": 667,
+    "p_value": 2.3543454667751247e-65
+  },
+  "mcnemar_cnn_gap_vs_cnn": {
+    "only_a_correct": 201,
+    "only_b_correct": 1213,
+    "p_value": 1.8856220263251153e-176
+  },
+  "errors_in_test_selected": 778,
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Linux-6.18.44-fc-v71-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "cpu_count": 1,
+    "tensorflow": "2.21.0",
+    "gpu": [],
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.3"
+  }
+}
